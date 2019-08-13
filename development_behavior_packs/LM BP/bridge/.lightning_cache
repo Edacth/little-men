@@ -1,0 +1,1 @@
+{"entity":{"BP\\entities\\base.json":{"events":[],"identifiers":["lm:base"],"animation_references":[],"families":["base"]},"BP\\entities\\miner.json":{"events":["minecraft:entity_spawned"],"identifiers":["lm:miner"],"animation_references":[],"families":["miner"]}}}

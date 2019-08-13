@@ -3,7 +3,7 @@
 	"header": {
 		"description": "pack.description",
 		"name": "pack.name",
-		"uuid": "UUID",
+		"uuid": "e983df99-d9a1-44b7-8429-2359927dd6c6",
 		"version": [
 			1,
 			0,
@@ -13,7 +13,7 @@
 	"modules": [
 		{
 			"type": "resources",
-			"uuid": "ANOTHER UUID",
+			"uuid": "55ebd880-7a6a-4485-ad27-363e1ebc9e62",
 			"version": [
 				1,
 				0,

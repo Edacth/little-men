@@ -1,9 +1,9 @@
-//bridge-file-version: #8
+//bridge-file-version: #6
 {
 	"format_version": "1.12.0",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "lm:base",
+			"identifier": "lm:mine",
 			"runtime_identifier": "minecraft:shulker",
 			"is_spawnable": true,
 			"is_summonable": true
@@ -12,7 +12,7 @@
 		"components": {
 			"minecraft:type_family": {
 				"family": [
-					"base"
+					"mine"
 				]
 			},
 			"minecraft:health": {
@@ -24,7 +24,7 @@
 				"height": 1
 			},
 			"minecraft:variant": {
-				"value": 0
+				"value": 1
 			}
 		},
 		"events": []

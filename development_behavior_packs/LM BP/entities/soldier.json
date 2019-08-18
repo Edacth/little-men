@@ -1,4 +1,4 @@
-//bridge-file-version: #18
+//bridge-file-version: #21
 {
 	"format_version": "1.12.0",
 	"minecraft:entity": {
@@ -42,6 +42,9 @@
 				},
 				"minecraft:behavior.melee_attack": {
 					"priority": 0
+				},
+				"minecraft:equipment": {
+					"table": "loot_tables/blue_soldier_equipment.json"
 				}
 			},
 			"lm:red_soldier": {
@@ -75,6 +78,9 @@
 				},
 				"minecraft:behavior.melee_attack": {
 					"priority": 0
+				},
+				"minecraft:equipment": {
+					"table": "loot_tables/red_soldier_equipment.json"
 				}
 			}
 		},
@@ -121,6 +127,20 @@
 						"weight": 1
 					}
 				]
+			},
+			"lm:add_red_soldier": {
+				"add": {
+					"component_groups": [
+						"lm:red_soldier"
+					]
+				}
+			},
+			"lm:add_blue_soldier": {
+				"add": {
+					"component_groups": [
+						"lm:blue_soldier"
+					]
+				}
 			}
 		}
 	}

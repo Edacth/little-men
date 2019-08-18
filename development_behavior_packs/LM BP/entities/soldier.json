@@ -1,4 +1,4 @@
-//bridge-file-version: #21
+//bridge-file-version: #26
 {
 	"format_version": "1.12.0",
 	"minecraft:entity": {
@@ -33,11 +33,12 @@
 					"damage": 0
 				},
 				"minecraft:scale": {
-					"value": 0.6
+					"value": 0.5
 				},
 				"minecraft:type_family": {
 					"family": [
-						"blue"
+						"blue",
+						"solder"
 					]
 				},
 				"minecraft:behavior.melee_attack": {
@@ -73,7 +74,8 @@
 				},
 				"minecraft:type_family": {
 					"family": [
-						"red"
+						"red",
+						"soldier"
 					]
 				},
 				"minecraft:behavior.melee_attack": {
@@ -105,6 +107,12 @@
 			"minecraft:collision_box": {
 				"width": 1,
 				"height": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 2
+			},
+			"minecraft:push_through": {
+				"value": 1
 			}
 		},
 		"events": {
